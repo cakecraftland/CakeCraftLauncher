@@ -36,7 +36,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npm run dist
         shell: bash
-
+          # auto release ...
       - name: Auto Release
         uses: CupOfTea696/gh-action-auto-release@v1.0.2
         with:
