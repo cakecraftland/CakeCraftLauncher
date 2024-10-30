@@ -1,4 +1,4 @@
-appId: 'helioslauncher'
+appId: 'cakecraftlauncher'
 productName: 'CakeCraft Launcher'
 artifactName: '${productName}-setup-${version}.${ext}'
 
