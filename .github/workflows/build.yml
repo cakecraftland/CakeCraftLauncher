@@ -44,10 +44,10 @@ jobs:
           prerelease: true
           title: "Development Build"
           files: |
-            *.dmg
-            *.dmg.blockmap
-            *.AppImage
-            *.exe
-            *.exe.blockmap
+            ./dist/*.dmg
+            ./dist/*.dmg.blockmap
+            ./dist/*.AppImage
+            ./dist/*.exe
+            ./dist/*.exe.blockmap
 
     
