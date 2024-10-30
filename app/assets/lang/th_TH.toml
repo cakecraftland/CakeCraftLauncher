@@ -1,0 +1,342 @@
+[ejs.landing]
+updateAvailableTooltip = "มีการอัปเดต"
+usernamePlaceholder = "ชื่อผู้ใช้"
+usernameEditButton = "แก้ไข"
+settingsTooltip = "การตั้งค่า"
+serverStatus = "เซิร์ฟเวอร์"
+serverStatusPlaceholder = "ออฟไลน์"
+mojangStatus = "สถานะ Mojang"
+mojangStatusTooltipTitle = "บริการ"
+mojangStatusNETitle = "ไม่&nbsp;จำเป็น"
+newsButton = "ข่าวสาร"
+launchButton = "เล่น"
+launchButtonPlaceholder = "&#8226; ไม่มีเซิร์ฟเวอร์ที่เลือก"
+launchDetails = "กรุณารอสักครู่.."
+newsNavigationStatus = "{currentPage} จาก {totalPages}"
+newsErrorLoadSpan = "กำลังตรวจสอบข่าวสาร.."
+newsErrorFailedSpan = "ไม่สามารถโหลดข่าวสารได้"
+newsErrorRetryButton = "ลองอีกครั้ง"
+newsErrorNoneSpan = "ไม่มีข่าวสาร"
+
+[ejs.login]
+loginCancelText = "ยกเลิก"
+loginSubheader = "ล็อกอิน MINECRAFT"
+loginEmailError = "* ค่าที่ไม่ถูกต้อง"
+loginEmailPlaceholder = "อีเมลหรือชื่อผู้ใช้"
+loginPasswordError = "* จำเป็น"
+loginPasswordPlaceholder = "รหัสผ่าน"
+loginForgotPasswordLink = "https://minecraft.net/password/forgot/"
+loginForgotPasswordText = "ลืมรหัสผ่าน?"
+loginRememberMeText = "จำฉันไว้?"
+loginButtonText = "ล็อกอิน"
+loginNeedAccountLink = "https://minecraft.net/store/minecraft-java-edition/"
+loginNeedAccountText = "ต้องการบัญชี?"
+loginPasswordDisclaimer1 = "รหัสผ่านของคุณจะถูกส่งไปยัง Mojang โดยตรงและจะไม่ถูกเก็บไว้."
+loginPasswordDisclaimer2 = "{appName} ไม่มีความเกี่ยวข้องกับ Mojang AB."
+
+[ejs.loginOptions]
+loginOptionsTitle = "ตัวเลือกการล็อกอิน"
+loginWithMicrosoft = "ล็อกอินด้วย Microsoft"
+loginWithMojang = "ล็อกอินด้วย Mojang"
+cancelButton = "ยกเลิก"
+
+[ejs.overlay]
+serverSelectHeader = "เซิร์ฟเวอร์ที่มีให้"
+serverSelectConfirm = "เลือก"
+serverSelectCancel = "ยกเลิก"
+accountSelectHeader = "เลือกบัญชี"
+accountSelectConfirm = "เลือก"
+accountSelectCancel = "ยกเลิก"
+
+[ejs.settings]
+navHeaderText = "การตั้งค่า"
+navAccount = "บัญชี"
+navMinecraft = "Minecraft"
+navMods = "Mods"
+navJava = "Java"
+navLauncher = "Launcher"
+navAbout = "เกี่ยวกับ"
+navUpdates = "อัปเดต"
+navDone = "เสร็จสิ้น"
+tabAccountHeaderText = "การตั้งค่าบัญชี"
+tabAccountHeaderDesc = "เพิ่มบัญชีใหม่หรือจัดการบัญชีที่มีอยู่."
+microsoftAccount = "Microsoft"
+addMicrosoftAccount = "+ เพิ่มบัญชี Microsoft"
+mojangAccount = "Mojang"
+addMojangAccount = "+ เพิ่มบัญชี Mojang"
+minecraftTabHeaderText = "การตั้งค่า Minecraft"
+minecraftTabHeaderDesc = "ตัวเลือกที่เกี่ยวข้องกับการเริ่มเกม."
+gameResolutionTitle = "ความละเอียดเกม"
+launchFullscreenTitle = "เริ่มในโหมดเต็มหน้าจอ."
+autoConnectTitle = "เชื่อมต่อกับเซิร์ฟเวอร์โดยอัตโนมัติเมื่อเริ่ม."
+launchDetachedTitle = "เริ่มกระบวนการเกมแยกจาก launcher."
+launchDetachedDesc = "หากเกมไม่ถูกแยกออก การปิด launcher จะปิดเกมด้วย."
+tabModsHeaderText = "การตั้งค่า Mod"
+tabModsHeaderDesc = "เปิดหรือปิดการใช้งาน mods."
+switchServerButton = "สลับ"
+requiredMods = "Mods ที่จำเป็น"
+optionalMods = "Mods ที่ไม่จำเป็น"
+dropinMods = "Mods แบบดรอปอิน"
+addMods = "เพิ่ม Mods"
+dropinRefreshNote = "(F5 เพื่อรีเฟรช)"
+shaderpacks = "Shaderpacks"
+shaderpackDesc = "เปิดหรือปิดการใช้งาน shaders โปรดทราบว่า shaders จะทำงานได้ดีเฉพาะบนการตั้งค่าที่มีประสิทธิภาพสูงเท่านั้น คุณสามารถเพิ่มแพ็คที่กำหนดเองที่นี่."
+selectShaderpack = "เลือก Shaderpack"
+tabJavaHeaderText = "การตั้งค่า Java"
+tabJavaHeaderDesc = "จัดการการกำหนดค่าของ Java (ขั้นสูง)."
+memoryTitle = "หน่วยความจำ"
+maxRAM = "RAM สูงสุด"
+minRAM = "RAM ต่ำสุด"
+memoryDesc = "RAM ต่ำสุดที่แนะนำคือ 3 กิกะไบต์ การตั้งค่าค่าต่ำสุดและสูงสุดให้เท่ ากันอาจลดความล่า."
+memoryTotalTitle = "ทั้งหมด"
+memoryAvailableTitle = "มีให้ใช้"
+javaExecutableTitle = "โปรแกรมบริการ Java"
+javaExecSelDialogTitle = "เลือกโปรแกรมบริการ Java"
+javaExecSelButtonText = "เลือกไฟล์"
+javaExecDesc = "โปรแกรมบริการ Java จะถูกตรวจสอบก่อนเริ่มเกม."
+javaPathDesc = "พาธควรจะลงท้ายด้วย <strong>{pathSuffix}</strong>."
+jvmOptsTitle = "ตัวเลือก JVM เพิ่มเติม"
+jvmOptsDesc = "ตัวเลือกที่จะถูกส่งไปยัง JVM ในขณะรันไทม์ <em>-Xms</em> และ <em>-Xmx</em> ไม่ควรจะรวมอยู่ด้วย."
+launcherTabHeaderText = "การตั้งค่า Launcher"
+launcherTabHeaderDesc = "ตัวเลือกที่เกี่ยวข้องกับ launcher เอง."
+allowPrereleaseTitle = "อนุญาตให้ใช้เวอร์ชันพรี-ริลีส"
+allowPrereleaseDesc = "เวอร์ชันพรี-ริลีสประกอบด้วยคุณสมบัติใหม่ที่ยังไม่ผ่านการทดสอบหรือรวมอยู่ด้วย.<br>นี้จะถูกตั้งค่าเป็นจริงเสมอหากคุณกำลังใช้เวอร์ชันพรี-ริลีส."
+dataDirectoryTitle = "ไดเรกทอรี่ข้อมูล"
+selectDataDirectory = "เลือกไดเรกทอรี่ข้อมูล"
+chooseFolder = "เลือกโฟลเดอร์"
+dataDirectoryDesc = "ทุกไฟล์เกมและติดตั้ง Java จะถูกเก็บไว้ในไดเรกทอรี่ข้อมูลนี้.<br>สกรีนช็อตและเซฟเวิลด์จะถูกเก็บไว้ในโฟลเดอร์สำหรับเซิร์ฟเวอร์คอนฟิกที่เลือก."
+aboutTabHeaderText = "เกี่ยวกับ"
+aboutTabHeaderDesc = "ดูข้อมูลและบันทึกการอัปเดตสำหรับเวอร์ชันปัจจุบัน."
+aboutTitle = "{appName}"
+stableRelease = "เวอร์ชันเสถียร"
+versionText = "เวอร์ชัน "
+sourceGithub = "แหล่งที่มา (GitHub)"
+support = "สนับสนุน"
+devToolsConsole = "คอนโซล DevTools"
+releaseNotes = "บันทึกการอัปเดต"
+changelog = "บันทึกการเปลี่ยนแปลง"
+noReleaseNotes = "ไม่มีบันทึกการอัปเดต"
+viewReleaseNotes = "ดูบันทึกการอัปเดตบน GitHub"
+launcherUpdatesHeaderText = "อัปเดต Launcher"
+launcherUpdatesHeaderDesc = "ดาวน์โหลด ติดตั้ง และดูอัปเดตสำหรับ launcher."
+checkForUpdates = "ตรวจสอบอัปเดต"
+whatsNew = "อะไรใหม่"
+updateReleaseNotes = "บันทึกการอัปเดต"
+
+[ejs.waiting]
+waitingText = "กำลังรอ Microsoft.."
+
+[ejs.welcome]
+continueButton = "ดำเนินการต่อ"
+
+[js.discord]
+waiting = "กำลังรอ Client.."
+state = "เซิร์ฟเวอร์: {shortId}"
+
+[js.index]
+microsoftLoginTitle = "ล็อกอินด้วย Microsoft"
+microsoftLogoutTitle = "ออกจากระบบ Microsoft"
+
+[js.login]
+login = "ล็อกอิน"
+loggingIn = "กำลังล็อกอิน"
+success = "สำเร็จ"
+tryAgain = "ลองอีกครั้ง"
+
+[js.login.error]
+invalidValue = "* ค่าที่ไม่ถูกต้อง"
+requiredValue = "* จำเป็น"
+
+[js.login.error.unknown]
+title = "ข้อผิดพลาดที่ไม่รู้จักขณะล็อกอิน"
+desc = "ข้อผิดพลาดที่ไม่รู้จักได้เกิดขึ้น โปรดดูคอนโซลสำหรับรายละเอียดเพิ่มเติม."
+
+[js.landing.launch]
+pleaseWait = "กรุณารอสักครู่.."
+failureTitle = "ข้อผิดพลาดขณะเริ่ม"
+failureText = "ดูคอนโซล (CTRL + Shift + i) สำหรับรายละเอียดเพิ่มเติม."
+okay = "ตกลง"
+
+[js.landing.selectedAccount]
+noAccountSelected = "ไม่มีบัญชีที่เลือก"
+
+[js.landing.selectedServer]
+noSelection = "ไม่มีเซิร์ฟเวอร์ที่เลือก"
+loading = "กำลังโหลด.."
+
+[js.landing.serverStatus]
+server = "เซิร์ฟเวอร์"
+offline = "ออฟไลน์"
+players = "ผู้เล่น"
+
+[js.landing.systemScan ]
+checking = "กำลังตรวจสอบข้อมูลระบบ.."
+noCompatibleJava = "ไม่พบการติดตั้ง Java ที่เข้ากันได้"
+installJavaMessage = "เพื่อเริ่ม Minecraft คุณต้องมีติดตั้ง Java {major} 64 บิต คุณต้องการให้เราติดตั้งให้หรือไม่?"
+installJava = "ติดตั้ง Java"
+installJavaManually = "ติดตั้งด้วยตนเอง"
+javaDownloadPrepare = "กำลังเตรียมดาวน์โหลด Java.."
+javaDownloadFailureTitle = "ข้อผิดพลาดขณะดาวน์โหลด Java"
+javaDownloadFailureText = "ดูคอนโซล (CTRL + Shift + i) สำหรับรายละเอียดเพิ่มเติม."
+javaRequired = "Java จำเป็น<br>เพื่อเริ่ม"
+javaRequiredMessage = 'ติดตั้ง Java {major} 64 บิต ที่ถูกต้องจำเป็นเพื่อเริ่ม.<br><br>โปรดดู <a href="https://github.com/dscalzi/HeliosLauncher/wiki/Java-Management#manually-installing-a-valid-version-of-java">คู่มือการจัดการ Java</a> สำหรับรายละเอียดในการติดตั้งด้วยตนเอง.'
+javaRequiredDismiss = "ฉันเข้าใจ"
+javaRequiredCancel = "กลับ"
+
+[js.landing.downloadJava]
+findJdkFailure = "ไม่พบ OpenJDK distribution."
+javaDownloadCorruptedError = "ไฟล์ JDK ที่ดาวน์โหลดมีแฮชที่ไม่ถูกต้อง ไฟล์อาจจะเสียหาย."
+extractingJava = "กำลัง 추출 Java"
+javaInstalled = "Java ถูกติดตั้งแล้ว!"
+
+[js.landing.dlAsync]
+loadingServerInfo = "กำลังโหลดข้อมูลเซิร์ฟเวอร์.."
+fatalError = "ข้อผิดพลาดร้ายแรง"
+unableToLoadDistributionIndex = "ไม่สามารถโหลดดัชนีของ_distribution ได้ ดูคอนโซล (CTRL + Shift + i) สำหรับรายละเอียดเพิ่มเติม."
+pleaseWait = "กรุณารอสักครู่.."
+errorDuringLaunchTitle = "ข้อผิดพลาดขณะเริ่ม"
+seeConsoleForDetails = "ดูคอนโซล (CTRL + Shift + i) สำหรับรายละเอียดเพิ่มเติม."
+validatingFileIntegrity = "กำลังตรวจสอบความถูกต้องของไฟล์.."
+errorDuringFileVerificationTitle = "ข้อผิดพลาดขณะตรวจสอบไฟล์"
+downloadingFiles = "กำลังดาวน์โหลดไฟล์.."
+errorDuringFileDownloadTitle = "ข้อผิดพลาดขณะดาวน์โหลดไฟล์"
+preparingToLaunch = "กำลังเตรียมเริ่ม.."
+launchingGame = "กำลังเริ่มเกม.."
+launchWrapperNotDownloaded = "ไฟล์ LaunchWrapper ไม่ถูกดาวน์โหลดอย่างถูกต้อง เกมไม่สามารถเริ่มได้.<br><br>โปรดปิดโปรแกรมป้องกันไวรัสชั่วคราวและเริ่มเกมอีกครั้ง.<br><br>หากคุณมีเวลาส่งรายงานข้อผิดพลาดบน <a href=\"https://github.com/dscalzi/HeliosLauncher/issues\">GitHub</a> และบอกเราว่าคุณใช้โปรแกรมป้องกันไวรัสอะไร เราจะติดต่อกับพวกเขาและพยายามแก้ไขปัญหา."
+doneEnjoyServer = "เสร็จสิ้น Enjoy เซิร์ฟเวอร์!"
+checkConsoleForDetails = "โปรดดูคอนโซล (CTRL + Shift + i) สำหรับรายละเอียดเพิ่มเติม."
+
+[js.landing.news]
+checking = "กำลังตรวจสอบข่าวสาร.."
+
+[js.landing.discord]
+loading = "กำลังโหลดเกม.."
+joining = "กำลังเข้าร่วม Westeros!"
+joined = "กำลังสำรวจดินแดน!"
+
+[js.overlay]
+dismiss = "ยกเลิก"
+
+[js.settings.fileSelectors]
+executables = "โปรแกรมบริการ"
+allFiles = "ทุกไฟล์"
+
+[js.settings.mstfLogin]
+errorTitle = "ข้อผิดพลาดขณะล็อกอิน"
+errorMessage = "ไม่สามารถล็อกอินด้วย Microsoft ได้ โปรดลองอีกครั้ง."
+okButton = "ตกลง"
+
+[js.settings.mstfLogout]
+errorTitle = "ข้อผิดพลาดขณะออกจากระบบ"
+errorMessage = "ไม่สามารถออกจากระบบ Microsoft ได้ โปรดลองอีกครั้ง."
+okButton = "ตกลง"
+
+[js.settings.authAccountSelect]
+selectButton = "เล ือกบัญชี"
+selectedButton = "บัญชีที่เลือก &#10004;"
+
+[js.settings.authAccountLogout]
+lastAccountWarningTitle = "คำเตือน<br>นี่คือบัญชีสุดท้ายของคุณ"
+lastAccountWarningMessage = "เพื่อใช้ launcher คุณต้องล็อกอินด้วยบัญชีอย่างน้อยหนึ่งบัญชี คุณต้องการออกจากระบบหรือไม่?<br><br>หากคุณออกจากระบบ คุณจะต้องล็อกอินอีกครั้ง."
+confirmButton = "ฉันแน่ใจ"
+cancelButton = "ยกเลิก"
+
+[js.settings.authAccountPopulate]
+username = "ชื่อผู้ใช้"
+uuid = "UUID"
+selectAccount = "เลือกบัญชี"
+selectedAccount = "บัญชีที่เลือก ✓"
+logout = "ออกจากระบบ"
+
+[js.settings.dropinMods]
+removeButton = "ลบ"
+deleteFailedTitle = "ลบ Drop-in Mod {fullName} ไม่สำเร็จ"
+deleteFailedMessage = "โปรดตรวจสอบว่าไฟล์ไม่ถูกใช้งานและลองอีกครั้ง."
+failedToggleTitle = "ไม่สามารถสลับ Drop-in Mod ได้"
+okButton = "ตกลง"
+
+[js.settings.serverListing]
+mainServer = "เซิร์ฟเวอร์หลัก"
+
+[js.settings.java]
+selectedJava = "เลือก: Java {version} ({vendor})"
+invalidSelection = "การเลือกไม่ถูกต้อง"
+requiresJava = "ต้องการ Java {major} x64."
+availableOptions = "ตัวเลือกที่มีให้สำหรับ Java {major} (HotSpot VM)"
+
+[js.settings.about]
+preReleaseTitle = "เวอร์ชันพรี-ริลีส"
+stableReleaseTitle = "เวอร์ชันเสถียร"
+releaseNotesFailed = "ไม่สามารถโหลดบันทึกการอัปเดตได้"
+
+[js.settings.updates]
+newReleaseTitle = "เวอร์ชันใหม่พร้อมใช้งาน"
+newPreReleaseTitle = "เวอร์ชันพรี-ริลีสใหม่พร้อมใช้งาน"
+downloadingButton = "กำลังดาวน์โหลด.."
+downloadButton = 'ดาวน์โหลดจาก GitHub<span style="font-size: 10px;color: gray;text-shadow: none !important;">ปิด launcher และรัน dmg เพื่ออัปเดต.</span>'
+latestVersionTitle = "คุณกำลังใช้เวอร์ชันล่าสุด"
+checkForUpdatesButton = "ตรวจสอบอัปเดต"
+checkingForUpdatesButton = "กำลังตรวจสอบอัปเดต.."
+
+[js.settings.msftLogin]
+errorTitle = "ข้อผิดพลาดขณะล็อกอิน Microsoft"
+errorMessage = "ไม่สามารถล็อกอินด้วย Microsoft ได้ โปรดลองอีกครั้ง."
+okButton = "ตกลง"
+
+[js.uibinder.startup]
+fatalErrorTitle = "ข้อผิดพลาดร้ายแรง: ไม่สามารถโหลดดัชนีของ_distribution ได้"
+fatalErrorMessage = "ไม่สามารถเชื่อมต่อกับเซิร์ฟเวอร์เพื่อดาวน์โหลดดัชนีของ_distribution ได้ ดัชนีของ_distribution เป็นไฟล์ที่จำเป็นสำหรับ launcher เพื่อเริ่มทำงาน.<br><br>โปรดตรวจสอบว่าคุณเชื่อมต่อกับอินเทอร์เน็ตและลองเริ่มใหม่."
+closeButton = "ปิด"
+
+[js.uibinder.validateAccount]
+failedMessageTitle = "ไม่สามารถรีเฟรชล็อกอินได้"
+failedMessage = "ไม่สามารถรีเฟรชล็อกอินสำหรับ <strong>{account}</strong> ได้ โปรดลองล็อกอินอีกครั้ง."
+loginButton = "ล็อกอิน"
+selectAnotherAccountButton = "เลือกบัญชีอื่น"
+
+[js.uicore.autoUpdate]
+checkingForUpdateButton = "กำลังตรวจสอบอัปเดต..."
+installNowButton = "ติดตั้งตอนนี้"
+checkForUpdatesButton = "ตรวจสอบอัปเดต"
+
+[js.auth.microsoft.error]
+noProfileTitle = "ข้อผิดพลาดขณะล็อกอิน:<br>โปรไฟล์ไม่ถูกตั้งค่า"
+noProfileDesc = "บัญชี Microsoft ของคุณยังไม่ถูกตั้งค่าโปรไฟล์ หากคุณเพิ่งซื้อเกมหรือรับของขวัญผ่าน Xbox Game Pass คุณต้องตั้งค่าโปรไฟล์บน <a href=\"https://minecraft.net/\">Minecraft.net</a>.<br><br>หากคุณยังไม่ซื้อเกม คุณสามารถซื้อได้บน <a href=\"https://minecraft.net/\">Minecraft .net</a>."
+noXboxAccountTitle = "ข้อผิดพลาดขณะล็อกอิน:<br>ไม่มีบัญชี Xbox"
+noXboxAccountDesc = "บัญชี Microsoft ของคุณไม่มีบัญชี Xbox ที่เกี่ยวข้อง."
+xblBannedTitle = "ข้อผิดพลาดขณะล็อกอิน:<br>Xbox Live ไม่พร้อมใช้งาน"
+xblBannedDesc = "บัญชี Microsoft ของคุณมาจากประเทศที่ Xbox Live ไม่พร้อมใช้งาน หรือถูกแบน."
+under18Title = "ข้อผิดพลาดขณะล็อกอิน:<br>ต้องได้รับการอนุญาตจากผู้ปกครอง"
+under18Desc = "บัญชีสำหรับผู้ใช้ที่อายุน้อยกว่า 18 ปี ต้องได้รับการอนุญาตจากผู้ปกครอง."
+unknownTitle = "ข้อผิดพลาดขณะล็อกอิน"
+unknownDesc = "ข้อผิดพลาดที่ไม่รู้จักได้เกิดขึ้น โปรดดูคอนโซลสำหรับรายละเอียดเพิ่มเติม."
+
+[js.auth.mojang.error]
+methodNotAllowedTitle = "ข้อผิดพลาดภายใน:<br>วิธีการไม่ถูกต้อง"
+methodNotAllowedDesc = "วิธีการไม ่ถูกต้อง โปรดรายงานข้อผิดพลาดนี้."
+notFoundTitle = "ข้อผิดพลาดภายใน:<br>ไม่พบ"
+notFoundDesc = "จุดสิ้นสุดการรับรองความถูกต้องไม่พบ โปรดรายงานปัญหานี้."
+accountMigratedTitle = "ข้อผิดพลาดขณะล็อกอิน:<br>บัญชีถูกย้าย"
+accountMigratedDesc = "คุณพยายามล็อกอินด้วยบัญชีที่ถูกย้าย ลองอีกครั้งโดยใช้อีเมลบัญชีเป็นชื่อผู้ใช้."
+invalidCredentialsTitle = "ข้อผิดพลาดขณะล็อกอิน:<br>ข้อมูลประจำตัวไม่ถูกต้อง"
+invalidCredentialsDesc = "อีเมลหรือรหัสผ่านที่คุณป้อนไม่ถูกต้อง โปรดลองอีกครั้ง."
+tooManyAttemptsTitle = "ข้อผิดพลาดขณะล็อกอิน:<br>มีการพยายามล็อกอินมากเกินไป"
+tooManyAttemptsDesc = "มีการพยายามล็อกอินมากเกินไปสำหรับบัญชีนี้ โปรดลองอีกครั้งภายหลัง."
+invalidTokenTitle = "ข้อผิดพลาดขณะล็อกอิน:<br>โทเค็นไม่ถูกต้อง"
+invalidTokenDesc = "โทเค็นที่ให้มาไม่ถูกต้อง."
+tokenHasProfileTitle = "ข้อผิดพลาดขณะล็อกอิน:<br>โทเค็นมีโปรไฟล์"
+tokenHasProfileDesc = "โทเค็นเข้าถึงมีโปรไฟล์แล้ว การเลือกโปรไฟล์ยังไม่ได้รับการดำเนินการ."
+credentialsMissingTitle = "ข้อผิดพลาดขณะล็อกอิน:<br>ข้อมูลประจำตัวไม่สมบูรณ์"
+credentialsMissingDesc = "ชื่อผู้ใช้/รหัสผ่านไม่ถูกส่งหรือรหัสผ่านมีความยาวน้อยกว่า 3 ตัวอักษร."
+invalidSaltVersionTitle = "ข้อผิดพลาดขณะล็อกอิน:<br>เวอร์ชันซอลต์ไม่ถูกต้อง"
+invalidSaltVersionDesc = "เวอร์ชันซอลต์ไม่ถูกต้อง."
+unsupportedMediaTypeTitle = "ข้อผิดพลาดภายใน:<br>ไม่รองรับประเภทสื่อ"
+unsupportedMediaTypeDesc = "ไม่รองรับประเภทสื่อ โปรดรายงานข้อผิดพลาดนี้."
+accountGoneTitle = "ข้อผิดพลาดขณะล็อกอิน:<br>บัญชีถูกย้าย"
+accountGoneDesc = "บัญชีถูกย้ายไปยังบัญชี Microsoft โปรดล็อกอินด้วย Microsoft."
+unreachableTitle = "ข้อผิดพลาดขณะล็อกอิน:<br>ไม่สามารถเข้าถึงได้"
+unreachableDesc = "ไม่สามารถเข้าถึงเซิร์ฟเวอร์การรับรองความถูกต้องได้ โปรดตรวจสอบว่าเซิร์ฟเวอร์ออนไลน์และคุณเชื่อมต่อกับอินเทอร์เน็ต."
+gameNotPurchasedTitle = "ข้อผิดพลาดขณะล็อกอิน:<br>เกมไม่ถูกซื้อ"
+gameNotPurchasedDesc = "บัญชีที่คุณพยายามล็อกอินไม่ได้ซื้อเกม คุณสามารถซื้อเกมได้บน <a href=\"https://minecraft.net/\">Minecraft.net</a>."
+unknownErrorTitle = "ข้อผิดพลาดขณะล็อกอิน"
+unknownErrorDesc = "ข้อผิดพลาดที่ไม่รู้จักได้เกิดขึ้น โปรดดูคอนโซลสำหรับรายละเอียดเพิ่มเติม."
