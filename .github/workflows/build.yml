@@ -37,17 +37,5 @@ jobs:
         run: npm run dist
         shell: bash
       ###########################################################
-      - uses: "marvinpinto/action-automatic-releases@latest"
-        with:
-          repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          automatic_release_tag: "latest"
-          prerelease: true
-          title: "Development Build"
-          files: |
-            dist/*.dmg
-            dist/*.dmg.blockmap
-            dist/*.AppImage
-            dist/*.exe
-            dist/*.exe.blockmap
 
     
