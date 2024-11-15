@@ -1,5 +1,5 @@
 appId: 'cakecraftlauncher'
-productName: 'CakeCraft-Launcher'
+productName: 'CakeCraft Launcher'
 artifactName: '${productName}-setup-${version}.${ext}'
 
 copyright: 'Copyright © 2018-2024 Daniel Scalzi & CakeCraft Team'
